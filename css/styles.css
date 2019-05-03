@@ -1,0 +1,10 @@
+.forms{
+  width:40%;
+  margin: auto;
+}
+input{
+  color: white;
+}
+::placeholder{
+  color: white;
+}
