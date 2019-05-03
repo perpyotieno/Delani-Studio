@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>Delani Studio</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
+  <div class="container">
+
   <img src="Images/background-images/first_background.jpg" alt="image of the studio's entrance">;
   <img src="Images/logo/logo.png" alt="logo">
   <h1>WELCOME <br>TO DELANI STUDIO</h1>
@@ -35,13 +38,36 @@ This iterative process allows for changes as business requirements evolve.</p>
 <img src="Images/portfolio/work6.jpg" alt="Image for work six">
 <img src="Images/portfolio/work7.jpg" alt="Image for work seven">
 <img src="Images/portfolio/work8.jpg" alt="Image for work eight">
+
+
 <h2>CONTACT US</h2>
-<img src="Images/background-images/c_image.jpg" alt="">
-<form class="" action="index.html" method="post">
-  <input type="text" name="" value="" placeholder="Name...">
-  <input type="text" name="" value=""placeholder="Email...">
-  <input type="text" name="" value="" placeholder="Your message here...">
-</form>
+<div class="contact-form">
+  <img src="Images/background-images/c_image.jpg" alt="">
+  <form class="forms" action="index.html" method="post">
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <input type="text" class="form-control" value="" placeholder="Name...">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <input type="text" class="form-control" value=""placeholder="Email..." >
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="form-group">
+      <textarea name="name" rows="8" cols="80" class="form-control" placeholder="Type message here..."></textarea>
+    </div>
+
+
+    <button type="submit" name="button">submit</button>
+  </form>
+</div>
+
 <footer>
   <img src="Images/social_icons/twitter.png" alt="twitter icon">
   <img src="Images/social_icons/dribble.png" alt="dribble icon">
@@ -56,6 +82,7 @@ This iterative process allows for changes as business requirements evolve.</p>
   <p>2019</p>
 </footer>
 
+</div>
 </body>
 
 </html>
