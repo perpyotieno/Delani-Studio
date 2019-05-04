@@ -47,5 +47,10 @@ $(document).ready(function(){
     $(".product-managementp").hide();
     $(".product-management").show();
   })
-  
-})
+  $('.test').hover(function () {
+    $(this).animate({opacity:'1'});
+    },
+    function () {
+    $(this).animate({opacity:'0'});
+});
+});
