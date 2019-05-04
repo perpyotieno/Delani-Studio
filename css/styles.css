@@ -58,3 +58,14 @@ h2{
 .introduction>img{
   padding-top: 6%;
 }
+.about{
+text-align: center;
+margin-top: 50px;
+}
+.about h2{
+  font-weight: 700;
+}
+.about p{
+  line-height: 30pt;
+
+}
