@@ -20,8 +20,8 @@ https://perpyotieno.github.io/Delani-Studio/
 
 ## BDD
 
-|:  Behavior | input   |  output |
-|---|---|---|---|---|
+|  Behavior | input   |  output |
+|---|:---:|---:|
 |Enter your name   |perpetua   |   |
 |Enter your email address   | perpetuamary@yahoo.com  |   |
 | Enter your message  |  Hi. What is your customer service Contact |   |
