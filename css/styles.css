@@ -78,12 +78,42 @@ p{
   background-size: cover;
   text-align: center;
   color: white;
-  padding-bottom:
 }
 .services h2{
   padding-top: 90px;
 }
 .services p{
   margin:auto, 70px;
+}
+.what-to-do{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.what-to-do p{
+  text-align:center;
 
+}
+.divisions{
+  width: 30%;
+  text-align:center;
+  margin:20px;
+  padding-bottom: 20px;
+
+
+}
+/* .design{
+  margin-left: 15%;
+} */
+.designp{
+    display: none;
+}
+.developmentp{
+  display: none;
+}
+.product-managementp{
+  display: none;
+}
+#what-to-do{
+  padding: 30px;
 }
