@@ -117,3 +117,16 @@ p{
 #what-to-do{
   padding: 30px;
 }
+
+.try{
+  width:280px;
+height:230px;
+margin-bottom: 20px;
+}
+.try img{
+  max-width: 100%;
+  max-height: 90%;
+}
+.try p{
+  display: none;
+}
