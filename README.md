@@ -1,4 +1,4 @@
-# TRIANGLE TRACKER
+# DELANI STUDIO
 #### This is an application for Delani Studio and their services, 3/05/2019
 #### By **Perpetua Mary**
 ## Description

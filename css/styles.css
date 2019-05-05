@@ -29,11 +29,13 @@ input[type="text"],textarea[type="text"],input[type="email"]{
   background:transparent;
   outline: none;
   background-color: transparent;
+  color: white;
 
 }
 #name, #email, #message{
   background-color: transparent;
   border
+  color: white;
 
 }
 
@@ -70,11 +72,18 @@ margin-top: 50px;
 margin-bottom: 50px;
 /* height: 50vh; */
 }
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  font-size: 3.0em;
+}
 h2{
   font-weight: 700;
+  font-family: 'Roboto Slab', serif;
 }
 p{
   line-height: 30pt;
+  font-family: 'Gugi', cursive;
 }
 .services{
   background-image: url("../Images/background-images/s_image.jpg");
@@ -151,6 +160,16 @@ footer{
   flex-wrap: wrap;
   align-items: center;
 }
+.test p{
+  font-size: 1.8em;
+  text-align: center;
+  padding: 5px;
+  padding-top: 40px;
+  font-family: 'Merienda', cursive;
+  line-height: 26pt;
+  font-weight: 700;
+
+}
 
 @media only screen and (max-width: 1200px) {
   .try{
@@ -158,12 +177,17 @@ footer{
   height:150px;
   margin-bottom: 30px;
 }
+
 }
 @media only screen and (max-width:991px){
   .try{
     width:180px;
     height:130px;
     margin-bottom: 30px;
+}
+.test p{
+  font-size: 1.4em;
+  line-height: 26pt;
 }
 }
 @media only screen and (max-width:765px){
@@ -172,5 +196,12 @@ footer{
   height:250px;
   margin-bottom: 30px;
   margin: auto;
+}
+.test p{
+  font-size: 2.2em;
+  padding: 5px;
+  padding-top: 60px;
+  line-height: 26pt;
+
 }
 }
