@@ -13,6 +13,17 @@
 //   })
 // })
 
+
+
+
+function delaniStudio(){
+  var name= document.getElementById("name").value;
+
+  alert(name + "we have received your message. Thank you for reaching out to us.")
+
+
+
+
 $(document).ready(function(){
   $(".design").click(function(){
     $(".design").hide();
