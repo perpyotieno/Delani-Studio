@@ -8,11 +8,9 @@
   opacity: 1;
 }
 .form-control:focus {
-        border-color:white;
-        /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, ); */
-        box-shadow: none;
-    }
-
+  border-color:white;
+  box-shadow: none;
+}
 .contact-form{
   background-image:url("../Images/background-images/c_image.jpg");
   background-position: center;
@@ -30,15 +28,12 @@ input[type="text"],textarea[type="text"],input[type="email"]{
   outline: none;
   background-color: transparent;
   color: white;
-
 }
 #name, #email, #message{
   background-color: transparent;
   border
   color: white;
-
 }
-
 #button-color{
   background-color: #C0BDA5;
   color: white;
@@ -60,17 +55,14 @@ h2{
 #introduction>h1,.introduction>p,.introduction>img{
   margin: 1%;
   padding:1%;
-
 }
 #introduction>img{
   padding-top: 6%;
 }
-
 .about{
 text-align: center;
 margin-top: 50px;
 margin-bottom: 50px;
-/* height: 50vh; */
 }
 h1{
   font-family: 'Roboto Slab', serif;
@@ -113,12 +105,7 @@ p{
   text-align:center;
   margin:20px;
   padding-bottom: 20px;
-
-
 }
-/* .design{
-  margin-left: 15%;
-} */
 .designp{
     display: none;
 }
@@ -131,7 +118,6 @@ p{
 #what-to-do{
   padding: 30px;
 }
-
 .try{
   width:250px;
 height:200px;
@@ -149,7 +135,6 @@ margin: 30px;
   position:relative;
   margin-top: -80%;
  opacity: 0;
-
 }
 footer{
   margin-top: 85%;
@@ -168,16 +153,13 @@ footer{
   font-family: 'Merienda', cursive;
   line-height: 26pt;
   font-weight: 700;
-
 }
-
 @media only screen and (max-width: 1200px) {
   .try{
     width:200px;
   height:150px;
   margin-bottom: 30px;
 }
-
 }
 @media only screen and (max-width:991px){
   .try{

@@ -1,29 +1,3 @@
-// var output= function(name){
-//   return name;
-// }
-//
-// $(document).ready(function(){
-//   $(#fill form).submit(function(event){
-//     event.preventDefault();
-//     var name =$("input#name").val();
-//     var email= $("input#email").val();
-//     var message=$("input#message").val();
-//
-//     alert(output + "we have received your message. Thank you for reaching out to us.")
-//   })
-// })
-
-
-
-
-function delaniStudio(){
-  var name= document.getElementById("name").value;
-
-  alert(name + "we have received your message. Thank you for reaching out to us.")
-
-
-
-
 $(document).ready(function(){
   $(".design").click(function(){
     $(".design").hide();
@@ -35,7 +9,6 @@ $(document).ready(function(){
     $(".designp").hide();
     $(".design").show();
   })
-
   $(".development").click(function(){
     $(".development").hide();
     $(".developmentp").toggle();
@@ -46,22 +19,26 @@ $(document).ready(function(){
     $(".developmentp").hide();
     $(".development").show();
   })
-
   $(".product-management").click(function(){
     $(".product-management").hide();
     $(".product-managementp").toggle();
     $(".product-managementp").show();
-
   })
   $(".product-managementp").click(function(){
     $(".product-management").toggle();
     $(".product-managementp").hide();
     $(".product-management").show();
   })
+
   $('.test').hover(function () {
     $(this).animate({opacity:'1'});
     },
     function () {
     $(this).animate({opacity:'0'});
 });
+  $("button").click(function(event){
+    event.preventDefault();
+    var input1 = document.getElementById('name').value;
+    alert(input1 + " we have received your message. Thank you for reaching out to us.");
+     });
 });
