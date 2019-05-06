@@ -39,6 +39,9 @@ $(document).ready(function(){
   $("button").click(function(event){
     event.preventDefault();
     var input1 = document.getElementById('name').value;
+    var user = document.getElementById('contactform').reset();
     alert(input1 + " we have received your message. Thank you for reaching out to us.");
      });
+
+
 });

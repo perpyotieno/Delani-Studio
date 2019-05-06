@@ -6,6 +6,7 @@
 .form-control::placeholder {
   color: white;
   opacity: 1;
+  font-weight: bold;
 }
 .form-control:focus {
   border-color:white;
