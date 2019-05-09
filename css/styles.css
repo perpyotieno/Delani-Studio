@@ -5,6 +5,7 @@ html{
   width:60%;
   margin: auto;
   margin-bottom: 100px;
+  color: white;
 }
 .form-control::placeholder {
   color: white;
@@ -31,6 +32,11 @@ input[type="text"],textarea[type="text"],input[type="email"]{
   background:transparent;
   outline: none;
   background-color: transparent;
+  color: white !important;
+  font-weight: 500;
+  font-family: 'Gugi', cursive;
+}
+input{
   color: white;
 }
 #name, #email, #message{
@@ -74,7 +80,7 @@ h1{
   font-size: 3.0em;
 }
 .mouse_click{
-  padding-top: 10%;
+  padding-top: 8%;
   animation: 0.3s change infinite;
 }
 @keyframes change {
@@ -82,8 +88,11 @@ h1{
     margin-top: -70px;
   }
   50%{
-    margin-bottom: -90px;
+    margin-bottom: -110px;
   }
+}
+.mouse_click img{
+  box-shadow: 0 0 10px black;
 }
 h2{
   font-weight: 700;
