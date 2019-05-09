@@ -95,6 +95,7 @@ p{
 .what-to-do{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 .what-to-do p{
@@ -102,7 +103,7 @@ p{
 
 }
 .divisions{
-  width: 30%;
+  width: 23%;
   text-align:center;
   margin:20px;
   padding-bottom: 20px;
