@@ -197,6 +197,9 @@ footer{
   font-size: 1.4em;
   line-height: 26pt;
 }
+.mouse_click{
+  padding-top: 12%;
+}
 }
 @media only screen and (max-width:765px){
 .try{
