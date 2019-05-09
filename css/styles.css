@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .forms{
   width:60%;
   margin: auto;
@@ -69,6 +72,18 @@ h1{
   font-family: 'Roboto Slab', serif;
   font-weight: 800;
   font-size: 3.0em;
+}
+.mouse_click{
+  padding-top: 10%;
+  animation: 0.3s change infinite;
+}
+@keyframes change {
+  0%{
+    margin-top: -70px;
+  }
+  50%{
+    margin-bottom: -90px;
+  }
 }
 h2{
   font-weight: 700;
